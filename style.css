@@ -1,0 +1,84 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: block;
+    max-width: 900px; /* Максимальная ширина страницы в пикселах */
+}
+
+.center {
+    width: 400px; /* Ширина элемента в пикселах */
+    padding: 100px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+}
+
+.note {
+    width: 80px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 4px;
+    border-bottom-width: 4px;
+}
+
+.note {
+    cellpadding: 4
+}
+
+.note1 {
+    background: #fc0
+}
+
+p {
+    text-indent: 20px; /* Отступ первой строки в пикселах */
+}
+
+.frame {
+    border: 3px solid #00a8e1;
+}
+
+.red {
+    color: red; /* Цвет маркеров */
+}
+li span {
+    color: black; /* Цвет текста */
+}
+
+
+
+blockquote {
+    margin: 0;
+    background: #F0F0F1;
+    color: #333334;
+    padding: 20px 30px;
+    position: relative;
+    border-left: 35px solid #DFDEDE;
+    font-family: 'Lato', sans-serif;
+}
+blockquote:before {
+    content: "\201C";
+    font-family: serif;
+    position: absolute;
+    left: -29px;
+    top: 5px;
+    color: #BCBCBC;
+    font-size: 50px;
+    text-shadow: 1px 2px 0 white;
+}
+blockquote p {
+    margin: 0 0 16px;
+    font-size: 20px;
+    letter-spacing: .05em;
+    line-height: 1.4;
+}
+blockquote cite {
+    font-style: normal;
+    font-weight: 300;
+}
+
+.note5 {
+    background-image: url(https://novosibirsk.oboitd.ru/images/goods/big/20200208111803_Kosmos_p25006_2745.jpg); /* Путь к фоновому изображению */
+    background-size: 100%;
+    background-color: #c7b39b; /* Цвет фона */
+    color: #F0F0F1;
+    padding: 8px 15px;
+}
